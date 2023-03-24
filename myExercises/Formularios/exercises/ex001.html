@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Angola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><strong>Formulário de Clientes Angolanos</strong></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="inome" class="inputUser" required> 
+                    <label for="inome" class="labelUser">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="iemail" class="inputUser">
+                    <label for="iemail" class="labelUser">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="itel" class="inputUser" required>
+                    <label for="itel" class="labelUser">Telefone</label>
+                </div>
+                
+                <p>Sexo:</p>
+                <input type="radio" name="genero" id="ifen" value="femenino">
+                <label for="ifen">Femenino</label>
+                <br>
+                <input type="radio" name="genero" id="imas" value="masculino">
+                <label for="imas">Masculino</label>
+                <br>
+                <input type="radio" name="genero" id="ioutr" value="outro">
+                
+                <label for="ioutr">Outro</label>
+                <br><br>
+                <div class="inputBox">
+                    <label for="idata_nasc" ><strong>Data de Nascimento</strong></label>
+                    <input type="date" name="data_nasc" id="idata_nasc">
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="icid" required class="inputUser">
+                    <label for="icid"class="labelUser">Cidade</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="iest" required class="inputUser">
+                    <label for="iest" class="labelUser">Província</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="iend" required class="inputUser">
+                    <label for="icid" class="labelUser">Endereço</label>
+                </div>
+                <br><br>
+                <input type="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

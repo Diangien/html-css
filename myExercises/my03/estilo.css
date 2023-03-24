@@ -1,0 +1,100 @@
+.primeira-linha{
+    display: flex;
+    font-size: 12px;
+    background-color: #F7F7F7;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem_e_link{
+    display: flex;
+    align-items: center;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    height: 20px;
+
+}
+
+.negro{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.botoes{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+
+}
+
+.aux2{
+
+    display: flex;
+    justify-content: center;
+}
+
+.espaco{
+    width: 1150px;
+}
+
+.segunda-linha{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.espaco1{
+    width: 300px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.video1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.futverso{
+    /*text-align: center; */           
+}
+
+
+.links > div{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: dotted;
+}
+.espaco2{
+    width: 300px;
+}
+
+.texto1{
+    display: flex;
+    justify-content: center;
+}
+
+.lançamento{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    width: 1150px;
+    text-align: center;
+    
+}

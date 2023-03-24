@@ -1,0 +1,131 @@
+:root{
+    --d:3;
+}
+
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+    background: url('ipad-img.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+html,body{
+    width: 100vw;
+    height:100vh;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.tela{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:500px;
+    height:400px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border-radius:10px;
+    border: 4px solid rgb(0,0,0,0.1);
+    box-shadow: 1px 1px  1px rgb(0,0,0,0.1);
+    
+}
+
+.tela-content{
+    position:relative;
+}
+
+.textboxes{
+    display:flex;
+    /* justify-content: space-between; */
+    gap:20px;
+}
+
+.botao{
+    width:120px;
+    padding:10px;
+    margin:5px;
+    color:white;
+    background-image: linear-gradient(to right, rgb(55,100,200,0.5),rgb(55,100,200,0.9));
+        outline:none;
+    border-radius:10px;
+    border:none;
+}
+
+.TextBox{
+    outline:none;
+    height: 20px;
+    width: 179px;
+    border:none;
+    border-bottom:4px solid rgb(55,100,200);
+    animation: rola-cor 1s infinite;
+    background-color: transparent;
+    font-size:24px;
+    letter-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    
+}
+
+.TextBox::placeholder{
+    color:white;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.TextBox:focus{
+    animation: rola-cor paused;
+}
+
+@keyframes rola-cor{
+    0%{   
+        border-bottom:4px solid rgb(65, 117, 230);
+    }
+
+    25%{
+        transform:translateX(5%);
+    }
+
+    50%{
+        border-bottom:4px solid rgb(200, 55, 144);
+    }
+
+    100%{
+        border-bottom:4px solid rgb(197, 13, 243);
+    }
+}
+
+.calc-box{
+    position:absolute;
+    top:-90px;
+    font-size: 48px;
+    color:whitesmoke;
+    transition: all .5s;
+    animation:flut 1s infinite ease-in-out alternate;
+    
+}
+
+@keyframes flut{
+    0%{
+        top:-100px;
+    }
+
+    100%{
+        top:-90px;
+    }
+}
+
+.botao:hover{
+    background-image:linear-gradient(to right, #921D95,rgba(16, 89, 245, 0.938));
+    transition: all .3s;
+    transform: rotateX(10deg) scale(1.5) rotateY(-50deg);
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(149, 211, 226);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    color: rgb(20, 33, 212);
+}
+
+#principal{
+    text-align: center;
+    background-color: blue;
+    color:white;
+}
+
+.csharp{
+    color: brown;
+}
+
+.java{
+    color:black;
+}
+
+.diang{
+    color:white;
+}
+
+.destaque{
+    background-color: rgba(218, 218, 94, 0.767);
+}
+
+h2{
+    color: rgba(127, 139, 245, 0.932);
+}
+
+.comp{
+    /*background-color: white;*/
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}

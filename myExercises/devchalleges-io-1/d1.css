@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Itim & família= Poppins:ital,wght@0,500;1,200;1,300 &family= Rajdhani:wght@300;400;500 & family= Work+Sans:ital,wght@0,100;0,300;1,200 & display=swap');
+
+:root{
+    --claro: rgb(250, 251, 253);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;   
+    font-family:'Poppins',sans-serif;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+}
+
+#dev-text{
+    color:rgb(248, 115, 85);
+}
+
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    gap:100px;
+    width:250px;
+    height:610px;
+    background-color: var(--claro);
+    border-radius:20px;
+}
+
+
+.links{
+    text-decoration:none;
+    color:black;
+}
+
+/* Part 2 of lateral menu */
+
+#opcoes{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:30px;
+    
+    
+}
+
+.linha{
+    position:absolute;
+    top: 150px;
+    left: 80px;
+    height: 255px;
+    width: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#colors{
+    position:relative;
+    left:-12px;
+}
+
+#spaces{
+    position:relative;
+    left:-8px;
+}
+
+#buttoms-text{
+    position:relative;
+    left:-8px;
+}
+
+#inputs{
+    position:relative;
+    left:-12px;
+}
+
+#grid{
+    position:relative;
+    left:-18px;
+}
+
+#opcoes p{
+    text-align: left;
+}
+
