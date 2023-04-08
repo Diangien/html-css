@@ -84,3 +84,80 @@
     }
 }
 
+
+.jogador{
+    position:relative;
+    width: 100px;
+    height: 200px;
+
+    background-image: url(imagens/i1.png);
+    background-repeat: no-repeat;
+    animation: andar 1s ease infinite;
+}
+
+@keyframes andar{
+    0%{
+        background-image: url(imagens/1.png);
+    }
+    
+    7%{
+        left:10px;
+        background-image: url(imagens/2.png) ;
+    }
+
+    14%{
+        left:20px;
+        background-image: url(imagens/3.png) ;
+    }
+    28%{
+        left:30px;
+        background-image: url(imagens/4.png) ;
+    }
+    35%{
+        left:40px;
+        background-image: url(imagens/5.png) ;
+    }
+
+    42%{
+        left:50px;
+        background-image: url(imagens/6.png);
+    }
+    
+    49%{
+        left:60px;
+        background-image: url(imagens/7.png) ;
+    }
+
+    56%{
+        left:70px;
+        background-image: url(imagens/8.png) ;
+    }
+    63%{
+        left:80px;
+        background-image: url(imagens/9.png) ;
+    }
+    70%{
+        left:90px;
+        background-image: url(imagens/10.png) ;
+    }
+    
+    77%{
+        left:100px;
+        background-image: url(imagens/11.png) ;
+    }
+
+    84%{
+        left:110px;
+        background-image: url(imagens/12.png) ;
+    }
+
+    91%{
+        left:120px;
+        background-image: url(imagens/13.png) ;
+    }
+    100%{
+        left:130px;
+        background-image: url(imagens/14.png) ;
+    }
+}
+
