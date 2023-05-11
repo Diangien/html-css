@@ -1,0 +1,29 @@
+[header]
+
+links: BLOG IMEL
+    hamburguer: Sobre Diangienda Nkana
+                Disciplinas
+                Curiosidade
+                Notícias da semana!!!
+        
+        TEMA: CLASSIFICAÇÃO DAS FUNCOES
+[header]
+[main]
+Olá colegas, Bem-vindos ao Blog IMEL, e hoje abordaremos de um assunto que, embora chato[--emoji], é na verdade
+uma grande maravilha, Hoje falaremos dos tipos de funções
+
+    Existem vários tipos de FUNCOES(correspondência entre dois conjuntos),ok, na verdade existem 4 tipos de funções que estam separadas em dois grandes grupos:
+        --funções Algébricas:Uma função ƒ é chamada função algébrica quando pode ser formada através de operações algébricas (adição, subtração, multiplicação, divisão e radiciação).
+        --funções não algébricas:Uma função transcendente (em inglês: transcendental) é uma função a qual não satisfaz uma equação polinomial cujos coeficientes são eles próprios polinomiais
+
+        Hoje só falaremos das funções Algébricas,[--emoji]
+
+        FUNCOES Algébricas
+            Podem ser:
+                RACIONAIS:
+                
+                -----INTERIA:
+                ------FRACCIONÁRIA:
+                IRRACIONAIS:
+    
+[main]

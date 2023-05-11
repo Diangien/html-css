@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: gray;
+    height: 70px;
+    width: 100vw;
+}
+
+/* #menu-items a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.808);
+    font-size: 1.3em;
+    
+}
+
+#menu-items ul{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+#menu-items ul li{
+    margin-top: 15px;
+    
+}
+
+#menu-items{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-left: 1px solid black;
+}
+
+#menu-1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    font-size: 40px;
+}
+.menu > p{
+    font-size: 23em;
+}
+
+#menu-1-1{
+    margin:0 auto;
+   
+}
+
+.menu > i{
+    font-size: 4px;
+   
+} */
+
+.menu{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+    font-size: 20px;
+}
+
+.menu p{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    transition: all .5s;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+
+#menu-items{
+    display: none;
+}
+
+#hamburguer{
+    display: none;
+    
+}
+
+.menu p{
+    font-size: 24px;
+}
+
+.menu{
+    height: 50px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+/* Main */
+
+main{
+    background-color: white;
+    width: 75%;
+    margin:0 auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+}
+
+#img-fundo img{
+    border-radius: 20px;
+    position: relative;
+    left:20%;
+    top:5%;
+}
+
+@media(max-width:800px) {
+    #hamburguer{
+        display: block;
+    }
+
+    #hamburguer:hover{
+        color:red;
+    }
+
+    .menu ul{
+        display: none;
+        
+    }
+
+}
