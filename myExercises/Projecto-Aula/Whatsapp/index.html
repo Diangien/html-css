@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">WhatsApp</a>
+            <div class="action">
+                <a href="#"> <ion-icon name="camera-outline"></ion-icon> </a>
+                <a href="#"> <ion-icon name="search-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="ellipsis-vertical-outline"></ion-icon></a>
+            </div>
+        </header>
+        <div class="tabs">
+            <input type="radio" id="chats" name="group" checked>
+            <input type="radio" id="status" name="group" checked>
+            <input type="radio" id="calls" name="group" checked>
+
+            <div class="buttons">
+                <label for="chats">Conversas</label>
+                <label for="status">Estados</label>
+                <label for="calls">Chamadas</label>
+                <div class="underline"></div>
+            </div>
+            <div class="content">
+                <div class="box chats">
+                    <div class="data">
+                        <div class="chatlist">
+                            <div class="block">
+                                <div class="imgbox">
+                                    <img src="assets/pexels-andrea-piacquadio-837358.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="listHead">
+                                        <h4>Alex Smith</h4>
+                                        <p class="time">10:49</p>
+                                    </div>
+                                    <div class="message_p">
+                                        <p>Como fazer WhatsApp html & css
+                                        </p>
+                                        <strong>1</strong>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="box status">
+                    Estados
+                </div>
+    
+                <div class="box calls">
+                    Chamadas
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

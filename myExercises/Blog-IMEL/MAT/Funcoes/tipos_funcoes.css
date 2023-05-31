@@ -10,54 +10,8 @@
 header{
     background-color: gray;
     height: 70px;
-    width: 100vw;
-}
-
-/* #menu-items a{
-    text-decoration: none;
-    color:rgba(0, 0, 0, 0.808);
-    font-size: 1.3em;
-    
-}
-
-#menu-items ul{
-    list-style-type: none;
-    margin: 0 auto;
-}
-
-#menu-items ul li{
-    margin-top: 15px;
-    
-}
-
-#menu-items{
     width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-left: 1px solid black;
 }
-
-#menu-1{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    font-size: 40px;
-}
-.menu > p{
-    font-size: 23em;
-}
-
-#menu-1-1{
-    margin:0 auto;
-   
-}
-
-.menu > i{
-    font-size: 4px;
-   
-} */
 
 .menu{
     display:flex;
@@ -89,12 +43,11 @@ header{
 }
 
 #menu-items{
-    display: none;
+   
 }
 
 #hamburguer{
-    display: none;
-    
+    display: none;  
 }
 
 .menu p{
@@ -118,13 +71,44 @@ main{
     margin-top: 2%;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+    padding:3%;
 }
+
 
 #img-fundo img{
     border-radius: 20px;
     position: relative;
     left:20%;
     top:5%;
+}
+
+.introducao-text::first-letter{
+   font-size: 28px;
+}
+
+.def-prof{
+    display: flex;
+    gap:2%;
+    align-items: center;
+    background: yellow;
+}
+
+.def-prof > p{
+    color:rgb(134, 131, 131)
+}
+
+#Fari{
+    gap:20%;
+}
+.def{
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(13.5px);
+    border-radius:7px;
+    height: 60px;
+    box-shadow:  0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color:rgb(80, 76, 76);
+
 }
 
 @media(max-width:800px) {
@@ -138,7 +122,5 @@ main{
 
     .menu ul{
         display: none;
-        
     }
-
 }
