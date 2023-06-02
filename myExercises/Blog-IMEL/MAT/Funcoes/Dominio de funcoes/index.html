@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu"> 
+            <p>BLOG-IMEL</p>
+            <!-- <i class="material-icons" id="hamburguer" onclick="mostrar()">menu</i> -->
+            
+            <div id="menu-items">
+                <input type="checkbox" class="menu-check">
+                <div id="hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="items">
+                    <li><a href="#">Sobre Diangienda Nkana</a></li>
+                    <li><a href="#">Actividades</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Feira do IMEL</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        </div>
+
+        
+    </header>
+
+    <BR></BR>
+
+    <main>
+        <br>
+        <div class="capa">
+            <img src="assets/capa.jpg" alt="" width="50%">
+        </div>
+        <br>
+        <h1>Tema: <span>O Famoso Domínio de Funções</span>
+        </h1>
+        
+        <br>
+        <img src="assets/child-pensando.jpg" alt="" class="child-img">
+        <BR></BR>
+
+        <p class="primeiro-p">O domínio de uma funcao é o conjunto de valores que são permitidos para entrar na nossa função. Este conjunto são os valores de X para esta função
+        </p>
+        <br>
+        <p>Podemos pensar na função como uma máquina que permite um certo número de igredientes e a cada igrediente que colocamos nela é gerado um produto para aquele igrediente</p>
+
+        <br>
+
+        <div class="dominio-img"><img src="assets/dominio-img.PNG" alt=""></div>
+
+        <br>
+        <p>Como vímos no post anterior, nos falamos do <a href="https://diangien.github.io/funcoes/" target="_blank">tipos de funções algébricas</a> , onde dissemos que elas podem ser racionais inteiras, fraccionárias e irracionais</p>
+
+        <br>
+        <p>Bom, hoje vamos falar de algo diferente, falaremos dos valores que são permitidos em cada função.</p>
+        <br>
+        <p>Então prepara as malas e vamos embarcar nesta viagem!!!</p>
+        <br>
+        <p>Analisemos a seguinte função :</p>
+        <br>
+        <div class="exemplo-funcao">
+            <math>
+                <mi>y</mi>
+                <mo>=</mo>
+                <mfrac>
+                    <mrow>
+                        <mn>1</mn>
+                    </mrow>
+
+                    <mrow>
+                        <mi>x</mi>
+                    </mrow>
+                </mfrac>
+            </math>
+        </div>
+
+        <br>
+        <p>
+            Como sabemos não podemos dividir por zero, então no nosso domínio não podemos incluir o valor "0". De qualquer modo se colocarmos qualquer outro número real, a função  (a nossa máquina) vai funcionar muito bem.
+        </p>
+
+        <br>
+        <p>Agora vamos definir o domínio de cada função que aprendemos pesssoal:</p>
+
+        <br>
+        <div class="tipo-funcao" id="fari">
+            <h2>1.Funcao Algebrica Racional Inteira</h2>
+
+            <br>
+            <p class="definicao">Nesta tipo de função o domínio são todos os números reais. ya só mesmo isso</p>
+            <br>
+            <p class="pergunta">Como assim?</p>
+            <br>
+            <p>Bem vamos analizar a seguinte função:</p>
+            <br>
+            <div class="exemplo-funcao">
+                <math>
+                    <mi>y</mi>
+                    <mo>=</mo>
+                    <mn>2</mn>
+                    <mi>x</mi>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                </math>
+            </div>
+            <br>
+            <p>Se colocamos qualquer valor nessa função, não teremos nenhum erro:</p>
+            <br>
+            <table>
+                <tr>
+                    <th>x</th>
+                    <th>f(x)</th>
+                </tr>
+                <tr>
+                    <td>-1</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- FARF -->
+        <BR></BR>
+        <div class="tipo-funcao" id="fari">
+            <h2>2.Funcao Algebrica Racional Fraccionaria</h2>
+
+            <br>
+            <p class="definicao">Nesta tipo de função o domínio são todos os números reais que não façam que o demoninador seja igual a zero. ya só mesmo isso</p>
+            <br>
+            <p class="pergunta">Como assim?</p>
+            <br>
+            <p>Bem vamos analizar a seguinte função:</p>
+            <br>
+            <div class="exemplo-funcao">
+                <math>
+                    <mi>y</mi>
+                    <mo>=</mo>
+                    <mfrac>
+                        <mrow>
+                            <mn>3</mn>
+                        </mrow>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>-</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </mfrac>
+                </math>
+            </div>
+            <br>
+            <p>Qual é o valor de X que poderar deixar o denominador igual à zero? Claro! o 1</p>
+            <br>
+            <p>
+                Mas como fazemos isso, com equação niga:
+            </p>
+            <br>
+            <div class="passos">
+                <p>1-Igualamos o demoninador à zero:
+                    <span>x-1 = 0</span>
+                </p>
+
+                <br>
+                <p>
+                    2-Isolamos o x:
+                    <span>X = 1</span>
+                </p>
+
+                <br>
+                <p>
+                    3- Colocamos o sinal de diferente
+                    <apn>X dif 1</apn>, ou seja x deve ser diferente de zero
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

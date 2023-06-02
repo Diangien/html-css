@@ -1,0 +1,67 @@
+
+Vejamos:
+
+    imgagem de domínio
+
+Como vímos no post anterior, nos falamos do [link] tipos de funções algébricas , onde dissemos que elas podem ser racionais inteiras, fraccionárias e irracionais
+
+Bom, hoje vamos falar de algo diferente, falaremos dos valores que são permitidos em cada função.
+ 
+ Então prepara as malas e vamos embarcar nesta viagem!!!
+ [imagem]--fogete 
+
+ 
+ Analisemos a seguinte função :
+    
+                1/X
+
+
+
+Agora vamos definir o domínio de cada função que aprendemos pesssoal:
+
+
+    1º FARI
+
+    Nesta tipo de função o domínio são todos os números reais. ya só mesmo isso
+
+    []
+
+    Bem vamos analizar a seguinte função: 2x+ 1
+
+    se colocamos qualquer valor nessa função, não teremos nenhum erro:
+
+    tabela[]
+
+    2º FARF
+
+    Neste tipo de função o domínio são todos os números  reais que não façam que o demoninador seja igual a zero
+    
+    [Como assim?]
+
+    Bem vamos analisar a seguinte função : 3 / x-1
+
+    Qual é o valor de X que poderar deixar o denominador igual à zero? Claro! o 1
+
+    Mas como fazemos isso, com equação niga:
+    1-Igualamos o demoninador à zero:
+        x-1 = 0
+    2-Isolamos o x:
+        X = 1
+    3- Colocamos o sinal de diferente
+        X dif 1, ou seja x deve ser diferente de zero
+
+    Como podemos representar o Domínio?
+
+    O domínio pode ser representado por duas formas: pela notação de intervalo e pela notação de conjunto
+
+    Notação de Conjunto: R-{1} (todos reais menos o 1)
+    Notação de INtervalo: ]-i/////////
+
+    3º FARI
+
+    
+
+
+
+
+
